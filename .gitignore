@@ -1,0 +1,68 @@
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.spec
+MANIFEST
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# ─── uv ───────────────────────────────────────────────────────────────────────
+# Keep uv.lock tracked (recommended for reproducibility)
+# Uncomment the next line if you prefer not to track it:
+# uv.lock
+
+# ─── Data Files ───────────────────────────────────────────────────────────────
+data/extract/
+data/transform/
+data/*.csv
+data/*.json
+data/*.parquet
+
+# ─── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Logs & Temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
